@@ -21,8 +21,9 @@ const pagesRoutes: Routes = [
 ];
 
 // Se utiliza forChild por ser rutas hijas
-@NgModule({
+/*@NgModule({
   imports: [RouterModule.forChild(pagesRoutes)],
   exports: [RouterModule]
 })
-export class PagesRoutingModule { }
+export class PagesRoutingModule { }*/
+export const PagesRoutingModule = RouterModule.forChild( pagesRoutes );

@@ -8,8 +8,8 @@ import { NopagefoundComponent } from './shared/nopagefound/nopagefound.component
 
 const routes: Routes = [
   {path:'register',component:RegisterComponent},
-  {path:'login',component:LoginComponent},
-  {path:'**',component:NopagefoundComponent}
+  {path:'login',component:LoginComponent}
+  //{path:'**',component:NopagefoundComponent}
 ];
 
 @NgModule({
