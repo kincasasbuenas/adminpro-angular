@@ -6,11 +6,11 @@ import { CommonModule } from '@angular/common';
 import {
   SettingsService,
   SidebarService,
-  SharedService
-  //UsuarioService,
-  //LoginGuardGuard,
+  SharedService,
+  UsuarioService,
+  LoginGuardGuard,
+  SubirArchivoService
   //AdminGuard,
-  //SubirArchivoService,
   //HospitalService,
   //MedicoService,
   //VerificaTokenGuard
@@ -25,11 +25,11 @@ import {
   providers: [
     SettingsService,
     SidebarService,
-    SharedService
-    //UsuarioService,
-    //LoginGuardGuard,
+    SharedService,
+    UsuarioService,
+    LoginGuardGuard,
+    SubirArchivoService
     //AdminGuard,
-    //SubirArchivoService,
     //ModalUploadService,
     //HospitalService,
     //MedicoService,

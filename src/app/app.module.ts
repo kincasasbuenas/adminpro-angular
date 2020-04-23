@@ -13,8 +13,9 @@ import { PagesModule } from './pages/pages.module';
 
 
 //temporal
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ServiceModule } from './services/service.module';
+
 
 
 
@@ -30,6 +31,7 @@ import { ServiceModule } from './services/service.module';
     AppRoutingModule,
     PagesModule,
     FormsModule,
+    ReactiveFormsModule,
     ServiceModule
   ],
   providers: [],
